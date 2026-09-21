@@ -1,0 +1,88 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "uk-UA"
+            },
+            "messages": {
+                "PLAY": "ГРАТИ",
+                "START": "СТАРТ",
+                "QR CODE": "QR-КОД",
+                "NOT PURCHASED": "НЕ ПРИДБАНО",
+                "LOADING": "ЗАВАНТАЖЕННЯ",
+                "SELECT LANGUAGE": "ВИБЕРІТЬ МОВУ",
+                "BACK": "НАЗАД",
+                "NEXT":"ДАЛІ",
+                "NO ADS": "БЕЗ РЕКЛАМИ",
+                "SECONDS": "СЕК.",
+                "TIME'S UP!": "ЧАС ВИЙШОВ!",
+                "REFRESH": "ОНОВИТИ",
+                "CLAIM!": "ЗАБРАТИ!",
+                "MENU": "МЕНЮ",
+                "RETRY": "ПОВТОРИТИ",
+                "VICTORY": "ПЕРЕМОГА",
+                "WIN": "ВИГРАШ",
+                "LOST":"ПОРАЗКА",
+                "DEFEAT":"ПОРАЗКА",
+                "LOSE":"ПОРАЗКА",
+                "CLOSE":"ЗАКРИТИ",
+                "Close":"Закрити",
+                "SECOND CHANCE":"ДРУГИЙ ШАНС",
+                "REWARDS":"НАГОРОДИ",
+                "ARE YOU SURE YOU WANT TO QUIT?":"ВИ ДІЙСНО ХОЧЕТЕ ВИЙТИ?",
+                "YES":"ТАК",
+                "NO":"НІ",
+                "Garage":"Гараж",
+                "ARMOR": "БРОНЯ",
+                "SELECT UPGRADE": "ВИБЕРІТЬ ПОКРАЩЕННЯ",
+                "PAYMENT": "ОПЛАТА",
+                "PAYMENT SCREEN": "ВІКНО ОПЛАТИ",
+                "SHOP": "МАГАЗИН",
+                "Map":"Мапа",
+                "LEADERBOARD":"ЛІДЕРИ",
+                "ARCADE":"АРКАДА",
+                "ARCADE MODE":"АРКАДА",
+                "ADVENTURE":"ПРИГОДА",
+                "MAX TOTAL SCORE:":"МАКСИМАЛЬНИЙ РЕЗУЛЬТАТ:",
+                "TASK":"ЗАВДАННЯ",
+                "Forest":"Ліс",
+                "Ocean":"Океан",
+                "Village":"Село",
+                "Sea":"Море",
+                "TOTAL TIME:":"ЗАГАЛЬНИЙ ЧАС:",
+                "TOTAL SCORE:":"ЗАГАЛЬНИЙ РАХУНОК:",
+                "REACH:":"ДОСЯГНИ:",
+                "SCORE:":"НАБЕРИ:",
+                "MERGE:":"ОБ'ЄДНАЙ:",
+                "TIMES":"РАЗІВ",
+                "LAUNCH CUBE":"ЗАПУСТИ КУБИК",
+                "TO BE SOON":"НАЙБЛИЖЧИМ ЧАСОМ",
+
+               
+                "Tap here to view your adventure map!":"Натисніть тут, щоб переглянути мапу пригод!",
+                "Select a campaign level and complete tasks!":"Виберіть рівень кампанії та виконуйте завдання!",
+                "Use these switches to view or change campaigns.":"Використовуйте ці перемикачі, щоб переглядати або змінювати кампанії.",
+                "Equip or buy new cube skins here.":"Екіпіруйте або купуйте нові скіни кубів тут.",
+                "Preview of your equipped skin":"Попередній перегляд вашого екіпірованого скіна",
+                "Remove ads with a one-time purchase.":"Приберіть рекламу разовою покупкою.",
+                "Choose a map and play Endless Mode!":"Виберіть мапу та грайте в Нескінченний режим!",
+                "Merge cubes to climb the leaderboard!":"Об’єднуйте куби, щоб підніматися в таблиці лідерів!",
+                "Tap here to change your nickname.":"Натисніть тут, щоб змінити свій нікнейм.",
+                "Keep an eye on the timer!":"Стежте за таймером!",
+                "Merge cubes to earn points!":"Об’єднуйте куби, щоб отримувати бали!",
+                "Complete the task to win the round!":"Виконайте завдання, щоб виграти раунд!",
+                "Now a quick guide":"А тепер короткий посібник",
+                
+                "Level 1": "Рівень 1",
+                "Level 2": "Рівень 2",
+                "Level 3": "Рівень 3",
+                "Level 4": "Рівень 4",
+                "Level 5": "Рівень 5"
+
+            }
+        }
+    ]
+}

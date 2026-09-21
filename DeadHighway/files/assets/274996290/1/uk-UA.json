@@ -1,0 +1,79 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "uk-UA"
+            },
+            "messages": {
+                "PLAY": "ГРАТИ",
+                "START": "ПОЧАТИ",
+                "QR CODE": "QR КОД",
+                "NOT PURCHASED": "НЕПРИДБАНО",
+                "LOADING": "ЗАВАНТАЖУЄТЬСЯ",
+                "SELECT LANGUAGE": "ВИБЕРІТЬ МОВУ",
+                "BACK": "НАЗАД",
+                "NEXT":"ДАЛІ",
+                "NO ADS": "БЕЗ РЕКЛАМИ",
+                "SECONDS": "СЕКУНД",
+                "TIME'S UP!": "ЧАС ВИЙШОВ!",
+                "REFRESH": "ОНОВИТИ",
+                "CLAIM!": "ОТРИМАТИ!",
+                "MENU": "МЕНЮ",
+                "RETRY": "ЩЕ РАЗ",
+                "VICTORY": "ПЕРЕМОГА",
+                "LOST":"ПОРАЗКА",
+                "CLOSE":"ЗАКРИТИ",
+                "Close":"Закрити",
+                "REWARDS":"НАГОРОДИ",
+                "ARE YOU SURE YOU WANT TO QUIT?":"ВПЕВНЕНІ, ЩО ХОЧЕТЕ ВИЙТИ?",
+                "YES":"ТАК",
+                "NO":"НІ",
+                "Garage":"Гараж",
+                "ARMOR": "БРОНЯ",
+                "SELECT UPGRADE": "ВИБЕРІТЬ ПОКРАЩЕННЯ",
+                "PAYMENT": "ОПЛАТА",
+                "SHOP": "МАГАЗИН",
+                "Map":"Мапа",
+               
+
+                "ENGINE":"ДВИГУН",
+                "FUEL":"БЕНЗИН",
+                "TURRET":"ТУРЕЛЬ",
+                "BODY":"КОРПУС",
+                "WHEELS":"КОЛЕСА",
+
+                "Fuel — increases the distance you can travel.":"Паливо — збільшує відстань, яку ви можете проїхати.",
+                "Engine — boosts speed and acceleration.":"Двигун — підвищує швидкість і прискорення.",
+                "Body — strengthens and protects the car from damage.":"Корпус — зміцнює і захищає авто від пошкоджень.",
+                "Turret — adds firepower to destroy obstacles and enemies.":"Турель — додає вогневу міць для знищення перешкод і ворогів.",
+                "Tires — improve grip and stability on difficult roads.":"Шини — покращують зчеплення та стабільність на складній дорозі.",
+                "Upgrade Garage — level up your car to the max.":"Гараж покращень — прокачуйте своє авто до максимуму.",
+                "Language — change the game language.":"Мова — змінити мову гри.",
+                "Donate — support the game and get bonuses.":"Донат — підтримайте гру та отримайте бонуси.",
+                "Play — start the race and try to drive as far as possible.":"Грати — почніть заїзд і спробуйте проїхати якнайдалі.",
+                "Map — unlock new locations and return to completed levels at any time.":"Мапа — відкривайте нові локації та повертайтеся до пройдених рівнів у будь-який час.",
+
+                "Road Progress — your distance to the finish line":"Прогрес дороги — ваша відстань до фінішу.",
+                "Speedometer — shows your current speed.":"Спідометр — показує вашу поточну швидкість.",
+                "Fuel — your remaining fuel.":"Паливо — залишок вашого пального.",
+                "Ammo — your amount of ammunition.":"Боєзапас — кількість ваших патронів.",
+                "Controls — use the left and right arrows to move.":"Керування — використовуйте стрілки вліво та вправо для руху.",
+                "Now you have enough cash to boost your performance. Pick an upgrade and hit the gas!":"Тепер у вас достатньо готівки, щоб додати потужності. Обирайте покращення — і по газах!",
+
+                "Join the MEGOGO GAMES community and share your feedback!":"Долучайтеся до спільноти MEGOGO GAMES та діліться враженнями!",
+
+                "Level 1": "РІВЕНЬ 1",
+                "Level 2": "РІВЕНЬ 2",
+                "Level 3": "РІВЕНЬ 3",
+                "Level 4": "РІВЕНЬ 4",
+                "Level 5": "РІВЕНЬ 5"
+
+
+            
+            }
+        }
+    ]
+}

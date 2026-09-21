@@ -1,0 +1,51 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "uk-UA"
+            },
+            "messages": {
+                "GAME": "ГРАТИ",
+                "QR CODE": "QR КОД",
+                "LOADING": "ЗАВАНТАЖУЄТЬСЯ",
+                "CHOOSE LANGUAGE": "ОБЕРІТЬ МОВУ",
+                "BACK": "НАЗАД",
+                "NO ADS": "БЕЗ РЕКЛАМИ",
+                "SECONDS": "СЕКУНД",
+                "DAMAGE:": "ШКОДА:",
+                "CRIT CHANCE:": "КРИТ. ШАНС:",
+                "CRIT DAMAGE:": "КРИТ. ШКОДА:",
+                "EVASION CHANCE:": "УХИЛЕННЯ:",
+                "HIT TWICE:": "ПОДВІЙНИЙ ХІД:",
+                "PROJECTILES:": "КУЛІ:",
+                "FURY:": "ЛЮТЬ:",
+                "LIFESTEAL:": "ВАМПІРИЗМ:",
+                "MAX HEALTH": "МАКС. ЗОРОВ'Я",
+                "RICOCHET:": "РИКОШЕТ:",
+                "TIME IS OUT!": "ЧАС ВИЙШОВ!",
+                "REFRESH": "ОНОВИТИ",
+                "DAMAGE": "ШКОДА",
+                "CRIT CHANCE": "КРИТ. ШАНС",
+                "CRIT DAMAGE": "КРИТ. ШКОДА",
+                "EVASION": "УХИЛЕННЯ",
+                "HIT TWICE": "ПОДВІЙНИЙ ХІД",
+                "PROJECTILES": "КУЛІ",
+                "FURY": "ЛЮТЬ",
+                "LIFESTEAL": "ВАМПІРИЗМ",
+                "RICOCHET": "РИКОШЕТ",
+                "MISSED": "ПРОМАХ",
+                "GET!": "ОТРИМАТИ!",
+                "MENU": "МЕНЮ",
+                "RESTART": "ЗАНОВО",
+                "WIN": "ПЕРЕМОГА",
+                "CLOSE": "ЗАКРИТИ",
+                "ARMOR": "БРОНЯ",
+                "SELECT YOUR UPGRADE": "ОБЕРІТЬ ПОКРАЩЕННЯ",
+                "PAYMENT SCREEN": "ВІКНО ОПЛАТИ"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "uk-PL"
+            },
+            "messages": {
+                "PLAY": "GRAJ",
+                "START": "START",
+                "QR CODE": "KOD QR",
+                "NOT PURCHASED": "NIE POSIADASZ",
+                "LOADING": "WCZYTYWANIE",
+                "SELECT LANGUAGE": "WYBIERZ JĘZYK",
+                "BACK": "WSTECZ",
+                "NEXT":"DALEJ",
+                "NO ADS": "BEZ REKLAM",
+                "SECONDS": "SEK.",
+                "TIME'S UP!": "KONIEC CZASU!",
+                "REFRESH": "ODŚWIEŻ",
+                "CLAIM!": "ZGARNIJ!",
+                "MENU": "MENU",
+                "RETRY": "POWTÓRZ",
+                "VICTORY": "ZWYCIĘSTWO",
+                "WIN":"WYGRANA",
+                "LOST":"PRZEGRANA",
+                "CLOSE":"ZAMKNIJ",
+                "Close":"Zamknij",
+                "SECOND CHANCE":"DRUGA SZANSA",
+                "REWARDS":"NAGRODY",
+                "ARE YOU SURE YOU WANT TO QUIT?":"CZY NA PEWNO CHCESZ WYJŚĆ?",
+                "YES":"TAK",
+                "NO":"NIE",
+                "Garage":"Garaż",
+                "ARMOR": "PANCERZ",
+                "SELECT UPGRADE": "WYBIERZ ULEPSZENIE",
+                "PAYMENT": "PŁATNOŚĆ",
+                "PAYMENT SCREEN": "STRONA PŁATNOŚĆI",
+                "SHOP": "SKLEP",
+                "Map":"Mapa",
+                "uah":"uah",
+                "LEADERBOARD":"RANKING",
+                "ARCADE":"ARCADE",
+                "ADVENTURE":"PRZYGODA",
+                "MAX TOTAL SCORE":"NAJWYŻSZY ŁĄCZNY WYNIK",
+                "TASK":"ZADANIE",
+                "Forest":"Las",
+                "Ocean":"Ocean",
+                "Village":"Wioska",
+                "Sea":"Morze",
+                "TOTAL TIME:":"CAŁKOWITY CZAS:",
+                "TOTAL SCORE:":"ŁĄCZNY WYNIK:",
+                "REACH:":"OSIĄGNIJ:",
+                "SCORE:":"ZDOBĄDŹ:",
+                "MERGE:":"POŁĄCZ:",
+                "TIMES":"RAZY",
+                "LAUNCH CUBE":"WYSTRZEL KOSTKĘ",
+                "TO BE SOON":"W NAJBLIŻSZYM CZASIE",
+
+                "Tap here to view your adventure map!":"Dotknij, aby otworzyć mapę Przygody!",
+                "Select a campaign level and complete tasks!":"Wybierz poziom kampanii i wykonaj zadania!",
+                "Use these switches to view or change campaigns.":"Te przełączniki pozwalają przeglądać i zmieniać kampanie.",
+                "Equip or buy new cube skins here.":"Tutaj ustawisz lub kupisz nowe skiny do kostki.",
+                "Preview of your equipped skin":"Podgląd wybranego skina.",
+                "Remove ads with a one-time purchase.":"Kup raz i usuń reklamy",
+                "Choose a map and play Endless Mode!":"Wybierz mapę i zagraj w trybie nieskończonym!",
+                "Merge cubes to climb the leaderboard!":"Łącz kostki i pnij się w rankingu!",
+                "Tap here to change your nickname.":"Dotknij, aby zmienić nick.",
+                "Keep an eye on the timer!":"Pilnuj czasu!",
+                "Merge cubes to earn points!":"Łącz kostki i zdobywaj punkty!",
+                "Complete the task to win the round!":"Wykonaj zadanie, aby wygrać rundę!",
+                "Now a quick guide":"A teraz krótki przewodnik",
+
+                "Level 1": "Poziom 1",
+                "Level 2": "Poziom 2",
+                "Level 3": "Poziom 3",
+                "Level 4": "Poziom 4",
+                "Level 5": "Poziom 5"
+
+
+            }
+        }
+    ]
+}

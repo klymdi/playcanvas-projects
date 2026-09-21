@@ -1,0 +1,80 @@
+
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "uk-PL"
+            },
+            "messages": {
+                "PLAY": "GRAJ",
+                "START": "START",
+                "QR CODE": "KOD QR",
+                "NOT PURCHASED": "ZABLOKOWANE",
+                "LOADING": "ŁADOWANIE",
+                "SELECT LANGUAGE": "WYBIERZ JĘZYK",
+                "BACK": "WSTECZ",
+                "NEXT":"DALEJ",
+                "NO ADS": "BEZ REKLAM",
+                "SECONDS": "SEK.",
+                "TIME'S UP!": "CZAS MINĄŁ!",
+                "REFRESH": "PONÓW",
+                "CLAIM!": "ODBIERZ!",
+                "MENU": "MENU",
+                "RETRY": "JESZCZE RAZ",
+                "VICTORY": "WYGRANA",
+                "LOST":"PORAŻKA",
+                "CLOSE":"ZAMKNIJ",
+                "Close":"Zamknij",
+                "REWARDS":"NAGRODY",
+                "ARE YOU SURE YOU WANT TO QUIT?":"CZY NA PEWNO CHCESZ WYJŚĆ?",
+                "YES":"TAK",
+                "NO":"NIE",
+                "Garage":"Garaż",
+                "ARMOR": "PANCERZ",
+                "SELECT UPGRADE": "WYBIERZ ULEPSZENIE",
+                "PAYMENT": "PŁATNOŚĆ",
+                "SHOP": "SKLEP",
+                "Map":"Mapa",
+                "uah":"uah",
+               
+
+                "ENGINE":"SILNIK",
+                "FUEL":"PALIWO",
+                "TURRET":"WIEŻYCZKA",
+                "BODY":"KADŁUB",
+                "WHEEL":"OPONY",
+
+                "Fuel — increases the distance you can travel.":"Paliwo — zwiększa dystans, jaki możesz przejechać.",
+                "Engine — boosts speed and acceleration.":"Silnik — zwiększa prędkość i przyspieszenie.",
+                "Body — strengthens and protects the car from damage.":"Kadłub — wzmacnia i chroni auto przed uszkodzeniami.",
+                "Turret — adds firepower to destroy obstacles and enemies.":"Wieżyczka — dodaje siłę ognia do niszczenia przeszkód i wrogów.",
+                "Tires — improve grip and stability on difficult roads.":"Opony — poprawiają przyczepność i stabilność na trudnej nawierzchni.",
+                "Upgrade Garage — level up your car to the max.":"Garaż ulepszeń — ulepszaj swoje auto do maksimum.",
+                "Language — change the game language.":"Język — zmień język gry.",
+                "Donate — support the game and get bonuses.":"Doładuj — wesprzyj grę i zgarnij bonusy.",
+                "Play — start the race and try to drive as far as possible.":"Graj — rozpocznij przejazd i spróbuj zajść jak najdalej.",
+                "Map — unlock new locations and return to completed levels at any time.":"Mapa — odblokowuj nowe lokacje i wracaj do ukończonych poziomów w dowolnym momencie.",
+
+                "Road Progress — your distance to the finish line.":"Postęp trasy — twój dystans do mety.",
+                "Speedometer — shows your current speed.":"Prędkościomierz — pokazuje twoją aktualną prędkość.",
+                "Fuel — your remaining fuel.":"Paliwo — poziom paliwa.",
+                "Ammo — your amount of ammunition.":"Amunicja — zapas pocisków.",
+                "Controls — use the left and right arrows to move.":"Sterowanie — użyj strzałek w lewo i w prawo, aby się poruszać.",
+                "Now you have enough cash to boost your performance. Pick an upgrade and hit the gas!":"Teraz masz wystarczająco gotówki, aby zwiększyć swoją wydajność. Wybierz ulepszenie i wciśnij gaz!",
+
+                "Join the MEGOGO GAMES community and share your feedback!":"Dołącz do społeczności MEGOGO GAMES i podziel się wrażeniami!",
+
+                "Level 1": "POZIOM 1",
+                "Level 2": "POZIOM 2",
+                "Level 3": "POZIOM 3",
+                "Level 4": "POZIOM 4",
+                "Level 5": "POZIOM 5"
+
+
+            }
+        }
+    ]
+}
