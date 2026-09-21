@@ -227,5 +227,17 @@
   <span>&copy; 2026</span>
 </footer>
 
+<script>
+  function requestFS() {
+    const el = document.documentElement;
+    if (el.requestFullscreen) el.requestFullscreen();
+    else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+    document.removeEventListener('click', requestFS);
+    document.removeEventListener('touchstart', requestFS);
+  }
+  document.addEventListener('click', requestFS, { once: true });
+  document.addEventListener('touchstart', requestFS, { once: true });
+</script>
+
 </body>
 </html>
