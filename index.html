@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dmytro — Game Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #12141a;
+    --bg-raised: #181b22;
+    --line: #262b35;
+    --text: #e8e6e1;
+    --text-dim: #8b8d98;
+    --accent: #5eead4;
+    --accent-dim: #2f6f66;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection { background: var(--accent); color: #0a0c10; }
+
+  a { color: inherit; }
+
+  .display {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 6vw;
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    background: rgba(18, 20, 26, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+  }
+
+  nav .logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+
+  nav .links {
+    display: flex;
+    gap: 28px;
+    font-size: 0.9rem;
+  }
+
+  nav .links a {
+    text-decoration: none;
+    color: var(--text-dim);
+    transition: color 0.15s ease;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+  }
+
+  nav .links a:hover,
+  nav .links a.active {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 14vh 6vw 10vh;
+  }
+
+  .eyebrow {
+    color: var(--accent);
+    font-size: 0.85rem;
+    margin: 0 0 18px;
+  }
+
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 28px;
+  }
+
+  h1 .hl {
+    color: var(--accent);
+  }
+
+  .bio {
+    font-size: 1.02rem;
+    line-height: 1.75;
+    color: var(--text-dim);
+    max-width: 62ch;
+  }
+
+  .bio p { margin: 0 0 1.1em; }
+
+  .todo {
+    display: block;
+    margin-top: 8px;
+    padding: 14px 16px;
+    border: 1px dashed var(--accent-dim);
+    border-radius: 4px;
+    color: var(--accent);
+    font-size: 0.85rem;
+  }
+
+  .stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 40px 0 0;
+  }
+
+  .stack span {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 3px;
+  }
+
+  .cta-row {
+    margin-top: 56px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 3px;
+    font-size: 0.92rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+  }
+
+  .cta.primary {
+    background: var(--accent);
+    color: #0a0c10;
+  }
+
+  .cta.secondary {
+    border: 1px solid var(--line);
+    color: var(--text);
+  }
+
+  .cta.primary:hover { background: #7ff2df; }
+  .cta.secondary:hover { border-color: var(--accent-dim); color: var(--accent); }
+
+  footer {
+    padding: 32px 6vw;
+    border-top: 1px solid var(--line);
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 560px) {
+    nav .links { gap: 16px; font-size: 0.82rem; }
+    main { padding: 10vh 6vw 8vh; }
+    footer { flex-direction: column; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">Dmytro<span style="color: var(--accent)">.</span></a>
+  <div class="links">
+    <a href="index.html" class="active">Про мене</a>
+    <a href="games.html">Проєкти</a>
+  </div>
+</nav>
+
+<main>
+  <p class="eyebrow">// Game Developer</p>
+  <h1>Розробляю ігри,<br>які <span class="hl">запускаються</span><br>прямо в браузері.</h1>
+
+  <div class="bio">
+    <!-- TODO: заміни цей текст на свій -->
+    <p>
+      Коротко про себе, досвід, з чим працюєш (PlayCanvas, JavaScript,
+      мобільні та TV-платформи), і що тобі цікаво в геймдеві.
+    </p>
+    <span class="todo">TODO: відредагуй цей блок — заміни на власний текст</span>
+  </div>
+
+  <div class="stack">
+    <span>PlayCanvas</span>
+    <span>JavaScript</span>
+    <span>WebGL</span>
+    <span>Mobile</span>
+    <span>TV / Smart TV</span>
+  </div>
+
+  <div class="cta-row">
+    <a class="cta primary" href="games.html">Дивитись проєкти →</a>
+    <!-- TODO: онови лінки нижче -->
+    <a class="cta secondary" href="https://github.com/klymdi" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</main>
+
+<footer>
+  <span>Dmytro — Game Developer</span>
+  <span>&copy; 2026</span>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проєкти — Dmytro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #12141a;
+    --bg-raised: #181b22;
+    --line: #262b35;
+    --text: #e8e6e1;
+    --text-dim: #8b8d98;
+    --accent: #5eead4;
+    --accent-dim: #2f6f66;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  .display { font-family: 'Space Grotesk', sans-serif; }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 6vw;
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    background: rgba(18, 20, 26, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+  }
+
+  nav .logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+  }
+
+  nav .links { display: flex; gap: 28px; font-size: 0.9rem; }
+
+  nav .links a {
+    text-decoration: none;
+    color: var(--text-dim);
+    transition: color 0.15s ease;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+  }
+
+  nav .links a:hover, nav .links a.active {
+    color: var(--text);
+    border-bottom-color: var(--accent);
+  }
+
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 8vh 6vw 12vh;
+  }
+
+  .page-head { margin-bottom: 56px; }
+
+  .eyebrow { color: var(--accent); font-size: 0.85rem; margin: 0 0 14px; }
+
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  .status-line {
+    margin-top: 14px;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+
+  .card {
+    background: var(--bg);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: background 0.15s ease;
+  }
+
+  .card:hover { background: var(--bg-raised); }
+
+  .card-logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--accent);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .card-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .card p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--text-dim);
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .card-tags span {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    border: 1px solid var(--line);
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+
+  .play-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    background: var(--accent);
+    color: #0a0c10;
+    align-self: flex-start;
+    margin-top: 4px;
+  }
+
+  .play-btn:hover { background: #7ff2df; }
+
+  .state-msg {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    padding: 40px 0;
+  }
+
+  .state-msg.error { color: #e8918a; }
+
+  footer {
+    padding: 32px 6vw;
+    border-top: 1px solid var(--line);
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 560px) {
+    nav .links { gap: 16px; font-size: 0.82rem; }
+    main { padding: 6vh 6vw 8vh; }
+    footer { flex-direction: column; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">Dmytro<span style="color: var(--accent)">.</span></a>
+  <div class="links">
+    <a href="index.html">Про мене</a>
+    <a href="games.html" class="active">Проєкти</a>
+  </div>
+</nav>
+
+<main>
+  <div class="page-head">
+    <p class="eyebrow">// PlayCanvas Projects</p>
+    <h1>Ігри та прототипи</h1>
+    <p class="status-line" id="status-line">Завантаження списку проєктів…</p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <span>Dmytro — Game Developer</span>
+  <span>&copy; 2026</span>
+</footer>
+
+<script>
+// ==== НАЛАШТУВАННЯ ====
+const GH_USER = 'klymdi';
+const GH_REPO = 'playcanvas-projects';
+const GH_BRANCH = 'main';
+// Папки, які НЕ є іграми (сам сайт-портфоліо лежить у корені)
+const IGNORE_DIRS = new Set(['.github', 'docs', 'assets', 'img', 'images']);
+// =======================
+
+const grid = document.getElementById('grid');
+const statusLine = document.getElementById('status-line');
+
+function pagesUrl(path) {
+  return `https://${GH_USER}.github.io/${GH_REPO}/${path}`;
+}
+
+function rawUrl(path) {
+  return `https://raw.githubusercontent.com/${GH_USER}/${GH_REPO}/${GH_BRANCH}/${path}`;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function initials(name) {
+  return name.slice(0, 2).toUpperCase();
+}
+
+function renderCard(folderName, meta) {
+  const title = meta?.title || folderName;
+  const description = meta?.description || 'Опис проєкту скоро зʼявиться.';
+  const tags = Array.isArray(meta?.tags) ? meta.tags : [];
+  const logo = meta?.logo ? rawUrl(`${folderName}/${meta.logo}`) : null;
+  const playHref = pagesUrl(`${folderName}/`);
+
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `
+    <div class="card-logo">
+      ${logo ? `<img src="${escapeHtml(logo)}" alt="${escapeHtml(title)} logo" loading="lazy" onerror="this.parentElement.textContent='${escapeHtml(initials(title))}'">` : escapeHtml(initials(title))}
+    </div>
+    <h3>${escapeHtml(title)}</h3>
+    <p>${escapeHtml(description)}</p>
+    ${tags.length ? `<div class="card-tags">${tags.map(t => `<span>${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+    <a class="play-btn" href="${escapeHtml(playHref)}" target="_blank" rel="noopener">Грати →</a>
+  `;
+  grid.appendChild(card);
+}
+
+async function loadMeta(folderName) {
+  try {
+    const res = await fetch(rawUrl(`${folderName}/meta.json`));
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
+async function loadGames() {
+  try {
+    const treeRes = await fetch(
+      `https://api.github.com/repos/${GH_USER}/${GH_REPO}/git/trees/${GH_BRANCH}?recursive=1`
+    );
+
+    if (!treeRes.ok) {
+      throw new Error(`GitHub API: ${treeRes.status}`);
+    }
+
+    const treeData = await treeRes.json();
+
+    // Папки верхнього рівня, що містять index.html прямо в корені підпапки
+    const topDirs = new Set();
+    for (const item of treeData.tree) {
+      const parts = item.path.split('/');
+      if (parts.length === 2 && parts[1] === 'index.html') {
+        const dir = parts[0];
+        if (!IGNORE_DIRS.has(dir) && !dir.startsWith('.')) {
+          topDirs.add(dir);
+        }
+      }
+    }
+
+    const folders = Array.from(topDirs).sort();
+
+    if (folders.length === 0) {
+      statusLine.textContent = 'Проєктів поки немає.';
+      return;
+    }
+
+    statusLine.textContent = `Знайдено проєктів: ${folders.length}`;
+
+    // Тягнемо meta.json для кожної папки паралельно
+    const metas = await Promise.all(folders.map(loadMeta));
+    folders.forEach((folder, i) => renderCard(folder, metas[i]));
+
+  } catch (err) {
+    console.error(err);
+    statusLine.textContent = '';
+    grid.innerHTML = `<div class="state-msg error">
+      Не вдалося завантажити список проєктів автоматично (можливо, вичерпано ліміт GitHub API).
+      Спробуй оновити сторінку за хвилину, або поглянь проєкти напряму в
+      <a href="https://github.com/${GH_USER}/${GH_REPO}" target="_blank" rel="noopener" style="color: var(--accent)">репозиторії</a>.
+    </div>`;
+  }
+}
+
+loadGames();
+</script>
+
+</body>
+</html>

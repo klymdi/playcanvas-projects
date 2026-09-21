@@ -1,0 +1,6 @@
+{
+  "title": "Cubeway 2048",
+  "description": "Клон 2048 з фізикою кубів, зроблений на PlayCanvas для TV-платформ.",
+  "logo": "logo.png",
+  "tags": ["PlayCanvas", "TV", "Puzzle"]
+}
